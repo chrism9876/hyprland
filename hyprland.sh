@@ -10,4 +10,4 @@ sudo pacman -S --needed pavucontrol kitty dolphin
 
 sudo pacman -S --needed hyprland hyprlock hyprpaper waybar wofi
 
-cp -r hypr/ ~/.config/hypr/
+cp -r hypr/ ~/.config/
