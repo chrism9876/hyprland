@@ -1,3 +1,4 @@
+ 
 background {
     monitor =
     path = ~/.config/hypr/sun.png   # supports png, jpg, webp (no animations, though)
@@ -11,64 +12,6 @@ background {
     brightness = 0.8172
     vibrancy = 0.1696
     vibrancy_darkness = 0.0
-}
-
-image {
-    monitor =
-    path = ~/.config/hypr/userIcon.png
-    size = 150 # lesser side if not 1:1 ratio
-    rounding = -1 # negative values mean circle
-    border_size = 4
-    border_color = rgb(221, 221, 221)
-    rotate = 0 # degrees, counter-clockwise
-    reload_time = -1 # seconds between reloading, 0 to reload with SIGUSR2
-    reload_cmd =  # command to get new path. if empty, old path will be used. don't run "follow" commands like tail -F
-
-    position = 0, 100
-    halign = center
-    valign = center
-}
-
-label {
-    monitor =
-    text = Hi there, $USER
-    text_align = center # center/right or any value for default left. multi-line text alignment inside label container
-    color = rgba(200, 200, 200, 1.0)
-    font_size = 25
-    font_family = Noto Sans
-    rotate = 0 # degrees, counter-clockwise
-
-    position = 0, 0
-    halign = center
-    valign = center
-}
-
-label {
-    monitor =
-    text = cmd[update:1000] echo "<span foreground='##c8c8c8'>$(date "+%H:%M")</span>"
-    text_align = center # center/right or any value for default left. m>
-    color = rgba(200, 200, 200, 1.0)
-    font_size = 25
-    font_family = Noto Sans
-    rotate = 0 # degrees, counter-clockwise
-
-    position = 0, 240
-    halign = center
-    valign = center
-}
-
-label {
-    monitor =
-    text = cmd[update:60000] echo "<span foreground='##c8c8c8'>$(date "+%A %d %B")</span>"
-    text_align = center # center/right or any value for default left. m>
-    color = rgba(200, 200, 200, 1.0)
-    font_size = 25
-    font_family = Noto Sans
-    rotate = 0 # degrees, counter-clockwise
-
-    position = 0, 280
-    halign = center
-    valign = center
 }
 
 input-field {
@@ -97,7 +40,7 @@ input-field {
     invert_numlock = false # change color if numlock is off
     swap_font_color = false # see below
 
-    position = 0, -150
+    position = 0, -20
     halign = center
     valign = center
 }
