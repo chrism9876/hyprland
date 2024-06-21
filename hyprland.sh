@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "install dependancys"
+echo "install dependencies"
 
 sudo pacman -S --needed polkit-kde-agent xdg-desktop-portal-hyprland
 
